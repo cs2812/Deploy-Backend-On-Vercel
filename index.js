@@ -13,6 +13,9 @@ app.get("/",(req,res)=>{
 app.get("/movie",(req,res)=>{
     res.send("Welcome to movie ApI")
 })
+app.get("/test",(req,res)=>{
+    res.send("Welcome to test ApI")
+})
 app.get("/friend",async(req,res)=>{
     const data=await User.find()
     res.send(data)
