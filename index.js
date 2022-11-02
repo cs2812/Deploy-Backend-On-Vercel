@@ -5,6 +5,9 @@ const port=3000
 app.get("/",(req,res)=>{
     res.send("Hello Chetan")
 })
+app.get("/movie",(req,res)=>{
+    res.send("Welcome to movie ApI")
+})
 
 app.listen(port,()=>{
     console.log(`App start on ${port}`)
