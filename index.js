@@ -1,6 +1,6 @@
 const express=require("express")
 const mongooes =require("mongoose")
-// const User =require("./schema/friend")
+
 const FriendRoute = require("./routes/friend")
 const app = express()
 const port=3000
